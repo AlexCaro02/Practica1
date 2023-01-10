@@ -1,0 +1,31 @@
+@keyframes example {
+    from {background-color: lightblue;}
+    to {background-color: #7081e1;}
+  }
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
+    background: lightcyan;
+    padding: 7px 0px;
+}
+.header h3{
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+    transition: background-color, padding 0.6s ease-out;
+}
+.header h3:hover{
+    /* animation-name: example;
+    animation-duration: 0.6s; */
+    padding: 10px 15px;
+    background-color: #7081e1;
+    transition: background-color, padding 0.6s ease-in;
+}
