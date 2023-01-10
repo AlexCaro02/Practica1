@@ -1,0 +1,13 @@
+.footer{ 
+    height: 50px; 
+    background:black; 
+    width:100%; 
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+}
+.container{
+    text-align: center;
+    padding: 13px;
+    color: white;
+}
