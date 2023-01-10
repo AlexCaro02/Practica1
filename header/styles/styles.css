@@ -8,17 +8,16 @@ body{
     align-items: flex-start;
     padding-left: 15px;
     background: lightcyan;
-    padding: 7px 0px;
+    padding: 10px 0px;
 }
 .header h3{
     margin: 5px;
     padding: 5px 10px;
     background-color: lightblue;
     border-radius: 20px;
-    transition: background-color, padding 0.6s ease-out;
+    transition: background-color 0.3s ease-out;
 }
 .header h3:hover{
-    padding: 10px 15px;
     background-color: #7081e1;
-    transition: background-color, padding 0.6s ease-in;
+    transition: background-color 0.5s ease-in;
 }
