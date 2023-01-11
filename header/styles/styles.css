@@ -10,14 +10,27 @@ body{
     background: lightcyan;
     padding: 10px 0px;
 }
-.header h3{
+
+.header div{
+    box-shadow: 5px 5px 5px rgba(56, 56, 56, 0.816);
     margin: 5px;
-    padding: 5px 10px;
-    background-color: lightblue;
     border-radius: 20px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header div h3{
+    margin:0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: lightblue;
     transition: background-color 0.3s ease-out, transform 0.2s ease-out;
 }
-.header h3:hover{
+.header div h3:hover{
     background-color: #7081e1;
     transform: translate(2px, 2px);
     transition: background-color 0.5s ease-in, transform 0.2s ease-in;
