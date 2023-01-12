@@ -14,7 +14,7 @@
 
 <body>
     
-    <a name="CABECERA"/>
+    <a name="CABECERA"></a>
 
     <!-- para heredar el menu de opciones y el footer -->
     <iframe class="header" src="../header/index.html"></iframe>
@@ -23,113 +23,98 @@
         <h1 class="titulo">TypeScript</h1>
     </div>
 
-    <div class="ancla">
-        <h6><a href="#CABECERA">Ir al inicio de la página</h6>
-            <h6><a href="#1">¿Qué es JavaScript?</h6>
-            <h6><a href="#2">¿Quién inventó JavaScript?</h6>
-            <h6><a href="#3">Curiosidades de JavaScript</h6>
-            <h6><a href="#4">¿Qué es TypeScript?</h6>
-            <h6><a href="#5">Curiosidades de TypeScript</h6>
-            <h6><a href="#6">Diferencias entre JavaScript y TypeScript</h6>
-            <h6><a href="#7">¿JavaScript o TypeScript?</h6>
-    </div>
-
-    <div class="cuerpo">
-        <div class="superior">
-            <a name="1"/>
-            <div class="aprt1">
-                <h1>¿Qué es JavaScript?</h1>
-                <p>JavaScript es un lenguaje de programación que se utiliza para añadir elementos interactivos a la página web. <p>
-                <p>Es un lenguaje de programación que se puede aplicar a un documento HTML.</p>
-                <p>Con JavaScript puedes crear desde una simple Web hasta juegos y gráficos 3D.</p>
-                <img class="imgJuego" src="images/codigo.jpg" alt="Imagen de la sintaxis de JavaScript"/>
+    <div class="general">
+        <div class="cuerpo">
+            
+            <div class="superior">
+                <div class="aprt1">
+                    <h1>¿Qué es JavaScript?</h1>
+                    <p>JavaScript es un lenguaje de programación que se utiliza para añadir elementos interactivos a la página web. <p>
+                    <p>Es un lenguaje de programación que se puede aplicar a un documento HTML.</p>
+                    <p>Con JavaScript puedes crear desde una simple Web hasta juegos y gráficos 3D.</p>
+                    <img class="imgJuego" src="images/codigo.jpg" alt="Imagen de la sintaxis de JavaScript"/>
+                </div>
+        
+                <div class="aprt2">
+                    <h1>¿Quién inventó JavaScript?</h1>
+                    <p>JavaScript, fue inventado por Brendan Eich en mayo de 1995, quien era el cofundador del proyecto Mozilla, Mozilla Foundation y la Corporación Mozilla.</p>
+                    <img class="imgCreador" src="images/brendan_eich.png" alt="Imagen del creador de JavaScript"/>
+                </div>
             </div>
-    
-            <div class="aprt2">
-                <a name="2"/>
-                <h1>¿Quién inventó JavaScript?</h1>
-                <p>JavaScript, fue inventado por Brendan Eich en mayo de 1995, quien era el cofundador del proyecto Mozilla, Mozilla Foundation y la Corporación Mozilla.</p>
-                <img class="imgCreador" src="images/brendan_eich.png" alt="Imagen del creador de JavaScript"/>
-            </div>
-        </div>
 
-        <div class="aprt3">
-            <a name="3"/>
-            <h1>Curiosidades de JavaScript</h1>
-            <ul>
-                <li>Su nombre real no es JavaScript si no ECMAScript</li>
-                <li>La primera versión se lanzó en un periodo de 10 días.</li>
-                <li>El primer nombre que recibió fué Mocha, posteriormente LiveScript, y tras unos meses, recibió el nombre de JavaScript.</li>
-                <li>JavaScript es una marca registrada por Oracle.</li>
-                <li>Ante la popularidad de JavaScript, Microsoft, decidió sacar su propia versión llamada JScript, su última versión estable es del 2011.</li>
-            </ul>
-        </div>
-
-        <div class="medio">
-            <div class="aprt4">
-                <a name="4"/>
-                <h1>¿Qué es TypeScript?</h1>
-                <p>TypeScript es un lenguaje de programación construido a un nivel superior que JS. Esto quiere decir que Typescript dota al lenguaje de varias características adicionales que hacen que podamos escribir código con menos errores, más sencillo, etc. en definitiva,más limpio y sólido.</p>
-                <p>Fue creado por microsoft en 2012, y Google lo adoptó como su lenguaje por defecto para desarrollar con Angular.</p>
-                <p>Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JS es válido para TS, pero NO lo contrario.</p>
-                <img class="imgCodigo" src="images/type_codigo.png" alt="Imagen de la sintaxis de Java"/>
-            </div>
-    
-            <div class="aprt5">
-                <a name="5"/>
-                <h1>Curiosidades de TypeScript</h1>
+            <div class="aprt3">
+                <h1>Curiosidades de JavaScript</h1>
                 <ul>
-                    <li>Es apoyado por fabricantes, tanto Microsoft como Google apoyan de una forma fuerte este lenguaje.</li>
-                    <li>Es un lenguaje compilado por lo que podemos detectar muchos errores antes de abordar la ejecución.</li>
-                    <li>Se trata de un lenguaje moderno que permite la unión de types que permite que un tipo soporte 2 opciones. (string | number).</li>
+                    <li>Su nombre real no es JavaScript si no ECMAScript</li>
+                    <li>La primera versión se lanzó en un periodo de 10 días.</li>
+                    <li>El primer nombre que recibió fué Mocha, posteriormente LiveScript, y tras unos meses, recibió el nombre de JavaScript.</li>
+                    <li>JavaScript es una marca registrada por Oracle.</li>
+                    <li>Ante la popularidad de JavaScript, Microsoft, decidió sacar su propia versión llamada JScript, su última versión estable es del 2011.</li>
                 </ul>
             </div>
-        </div>
-        <div class="inferior">
-            <a name="6"/>
-            <div class="aprt6">
-                <h1>Diferencias entre JavaScript y TypeScript</h1>
-                <table border="2">
-                    <tr>
-                        <th><h3>Características</h3></th>
-                        <th><h3>JavaScript</h3></th>
-                        <th><h3>TypeScript</h3></th>
-                    </tr>
-                    <tr>
-                        <td>Tipados</td>
-                        <td>No existen aunque se pueden simular</td>
-                        <td>Lenguaje fuertemente tipado, donde se pueden crear tipos genéricos o interfaces</td>
-                    </tr>
-                    <tr>
-                        <td>Modularización</td>
-                        <td>Através de ECMAScript 6</td>
-                        <td>Soporte directo para módulos</td>
-                    </tr>
-                    <tr>
-                        <td>Tuplas</td>
-                        <td>No las soporta</td>
-                        <td>Si las soporta</td>
-                    </tr>
-                    <tr>
-                        <td>Orientación a objetos</td>
-                        <td>Más compleja</td>
-                        <td>Similar a otros lenguajes de programación como Java o C#</td>
-                    </tr>
-                    <tr>
-                        <td>Interfaces</td>
-                        <td>No existe soporte para las interfaces</td>
-                        <td>Son imprescindibles</td>
-                    </tr>
-                </table>
+
+            <div class="medio">
+                <div class="aprt4">
+                    <h1>¿Qué es TypeScript?</h1>
+                    <p>TypeScript es un lenguaje de programación construido a un nivel superior que JS. Esto quiere decir que Typescript dota al lenguaje de varias características adicionales que hacen que podamos escribir código con menos errores, más sencillo, etc. en definitiva,más limpio y sólido.</p>
+                    <p>Fue creado por microsoft en 2012, y Google lo adoptó como su lenguaje por defecto para desarrollar con Angular.</p>
+                    <p>Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JS es válido para TS, pero NO lo contrario.</p>
+                    <img class="imgCodigo" src="images/type_codigo.png" alt="Imagen de la sintaxis de Java"/>
+                </div>
+        
+                <div class="aprt5">
+                    <h1>Curiosidades de TypeScript</h1>
+                    <ul>
+                        <li>Es apoyado por fabricantes, tanto Microsoft como Google apoyan de una forma fuerte este lenguaje.</li>
+                        <li>Es un lenguaje compilado por lo que podemos detectar muchos errores antes de abordar la ejecución.</li>
+                        <li>Se trata de un lenguaje moderno que permite la unión de types que permite que un tipo soporte 2 opciones. (string | number).</li>
+                    </ul>
+                </div>
             </div>
-    
-            <div class="aprt7">
-                <a name="7"/>
-                <h1>¿JavaScript o TypeScript?</h1>
-                <p>En proyectos pequeños, usar TypeScript es un poco brusco, por lo que quizá no merezca la pena.</p>
-                <p>En proyectos medianos o grandes, y sobre todo en un equipo de desarrollo, escribir código en TS ofrece grandes ventajas que se van a notar a corto y a largo plazo.</p>
-                <p>Si trabajas con frameworks, usar TypeScript es casi una obligación. A esto hay que sumarle que en todas las empresas de desarrollo software los principales proyectos utilizan alguno de estos frameworks o librerías.</p>
-                <p>Aunque los más recomendable en caso de duda es aprender TS, ya que a nivel profesional es un lenguaje más útil. Además de llevarte el aprendizaje de JS y una base muy sólida para el uso de Angular.</p>
+            <div class="inferior">
+                <div class="aprt6">
+                    <h1>Diferencias entre JavaScript y TypeScript</h1>
+                    <table>
+                        <tr>
+                            <th><h3>Características</h3></th>
+                            <th><h3>JavaScript</h3></th>
+                            <th><h3>TypeScript</h3></th>
+                        </tr>
+                        <tr>
+                            <td>Tipados</td>
+                            <td>No existen aunque se pueden simular</td>
+                            <td>Lenguaje fuertemente tipado, donde se pueden crear tipos genéricos o interfaces</td>
+                        </tr>
+                        <tr>
+                            <td>Modularización</td>
+                            <td>Através de ECMAScript 6</td>
+                            <td>Soporte directo para módulos</td>
+                        </tr>
+                        <tr>
+                            <td>Tuplas</td>
+                            <td>No las soporta</td>
+                            <td>Si las soporta</td>
+                        </tr>
+                        <tr>
+                            <td>Orientación a objetos</td>
+                            <td>Más compleja</td>
+                            <td>Similar a otros lenguajes de programación como Java o C#</td>
+                        </tr>
+                        <tr>
+                            <td>Interfaces</td>
+                            <td>No existe soporte para las interfaces</td>
+                            <td>Son imprescindibles</td>
+                        </tr>
+                    </table>
+                </div>
+        
+                <div class="aprt7">
+                    <h1>¿JavaScript o TypeScript?</h1>
+                    <p>En proyectos pequeños, usar TypeScript es un poco brusco, por lo que quizá no merezca la pena.</p>
+                    <p>En proyectos medianos o grandes, y sobre todo en un equipo de desarrollo, escribir código en TS ofrece grandes ventajas que se van a notar a corto y a largo plazo.</p>
+                    <p>Si trabajas con frameworks, usar TypeScript es casi una obligación. A esto hay que sumarle que en todas las empresas de desarrollo software los principales proyectos utilizan alguno de estos frameworks o librerías.</p>
+                    <p>Aunque los más recomendable en caso de duda es aprender TS, ya que a nivel profesional es un lenguaje más útil. Además de llevarte el aprendizaje de JS y una base muy sólida para el uso de Angular.</p>
+                </div>
             </div>
         </div>
     </div>
