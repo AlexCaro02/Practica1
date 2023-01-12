@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: blue;
 }
 iframe.header{
     height: 62px;
@@ -19,6 +20,7 @@ iframe.footer{
 
 /* slider */
 .slider {
+    height: calc(100vh - 117px);
     border-radius: 5px;
     box-shadow: 5px 5px hsl(0, 0%, 76%);
     position: relative;
@@ -34,7 +36,7 @@ iframe.footer{
     height:350px;
 }
 .slider ul li img {
-    height: 140%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -90,3 +92,4 @@ iframe.footer{
     from {opacity: .2} 
     to {opacity: 1}
 }
+body{ margin: 0;}
