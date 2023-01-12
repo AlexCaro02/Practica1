@@ -1,5 +1,5 @@
-.encabezado{
-    text-align: center;
+body{
+    background-color: #186fcc;
 }
 
 .general{
@@ -7,13 +7,58 @@
     margin-right: 15px;
 }
 
+.encabezado{
+    text-align: center;
+    border-style: solid; 
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 5px;
+    background-color:#b8dbf1;
+    max-width: 40%;
+    margin-left: 30%;
+}
+
+.general h1{
+    text-align: center;
+    border-style: solid; 
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 5px;
+    background-color:#b8dbf1;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+
+.aprt1{
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.aprt2{
+    text-align: justify;
+}
+
 .superior{
     display: flex;
 }
 
 .imgJuego{
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 10px;
+    margin-left: 275px;
+}
+
+.imgCreador{
+    width: 200px;
+    height: 200px;
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 10px;
+    margin-top: 20px;
+    margin-left: 275px;
 }
 
 .imgCodigo{
@@ -25,14 +70,10 @@
     justify-self: center;
 }
 
-body{
-    background-color: #186fcc;
-}
-
 table {
     background-color:#FFFFFF;
     border-collapse: collapse;
-    margin-left: 10px;
+    margin-left: 300px;
 }
 
 th{
