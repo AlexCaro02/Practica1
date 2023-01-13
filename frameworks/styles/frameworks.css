@@ -28,7 +28,12 @@ li {
     margin: 0;
 }
 
-h1{
+p{
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+h1, h4{
     margin: 5px;
 }
 
@@ -43,5 +48,14 @@ h1{
 
 .navbar ul li:last-child {
     border-bottom: 0;
+}
 
+.textimage{
+    display: flex;
+}
+
+.textimage img{
+    padding-right: 50px;
+    padding-left: 20px;
+    height: 20vh;
 }
