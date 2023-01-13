@@ -2,18 +2,47 @@
     background-color: lightyellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comparacion tr:first-child{
+    font-size: xx-large;
+}
+body{
+    background-color: white;
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imagenes img{
+    height: 100px;
+    transition: 0.3s ease-out;
+}
+
+
+.imagenes img:hover{
+    height:110px ;
+    transition: 0.5s ease-in;
 }
 
 .comparacion td{
     border: 2px solid black;
     vertical-align: top;
 }
+.comparacion img{
+    width:40px;
+}
 .tiene{
-    
     text-align: left;
     list-style-image: url(../img/check-mark-icon.svg);
+    color: darkgreen;
 }
 .notiene{
     text-align: left;
     list-style-image: url(../img/x-10332.svg);
+    color: darkred;
 }
+
