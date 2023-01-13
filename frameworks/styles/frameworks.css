@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .cuerpo {
     background-color: lightgreen;
     display: flex;
@@ -23,6 +27,7 @@ a{
     padding-left: 15px;
     overflow-x: hidden;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
 .navbar ul {
@@ -67,4 +72,5 @@ h1, h4{
 }
 img{
     float: right;
+    
 }
