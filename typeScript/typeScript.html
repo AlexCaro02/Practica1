@@ -14,9 +14,9 @@
 
 <body>
     
-    <a name="CABECERA"></a>
+    <a id="CABECERA"></a>
 
-    <!-- para heredar el menu de opciones y el footer -->
+    <!-- para heredar el menu de opciones-->
     <iframe class="header" src="../header/index.html"></iframe>
 
     <div class="encabezado">
@@ -30,54 +30,58 @@
                 <div class="aprt1">
                         <h1>¿Qué es JavaScript?</h1>
                         <p>JavaScript es un lenguaje de programación que se utiliza para añadir elementos interactivos a la página web.<br> 
-                        Es un lenguaje de programación que se puede aplicar a un documento HTML. 
+                        Es un lenguaje de programación que se puede aplicar a un documento <a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a>.
                         Con JavaScript puedes crear desde una simple Web hasta juegos y gráficos 3D.</p>
-                        <img class="imgJuego" src="images/codigo.jpg" alt="Imagen de la sintaxis de JavaScript"/>
+                        <a href="https://www.udemy.com/es/topic/javascript/"><img class="imgJuego" src="images/codigo.jpg" alt="Imagen de la sintaxis de JavaScript"/></a>
                 </div>
                 <div class="aprt2">
                         <h1>¿Quién inventó JavaScript?</h1>
                         <p>JavaScript, fue inventado por Brendan Eich en mayo de 1995, quien era el cofundador del proyecto Mozilla, Mozilla Foundation y la Corporación Mozilla.</p>
-                        <img class="imgCreador" src="images/brendan_eich.png" alt="Imagen del creador de JavaScript"/>
+                        <a href="https://es.wikipedia.org/wiki/Brendan_Eich"><img class="imgCreador" src="images/brendan_eich.png" alt="Imagen del creador de JavaScript"/></a>
                 </div>
             </div>
 
             <div class="aprt3">
                 <h1>Curiosidades de JavaScript</h1>
-                <ul>
-                    <li>Su nombre real no es JavaScript si no ECMAScript</li>
+                <ol class="flecha">
+                    <li>Su nombre real no es JavaScript si no <a href="https://es.wikipedia.org/wiki/ECMAScript">ECMAScript</a>.</li>
                     <li>La primera versión se lanzó en un periodo de 10 días.</li>
                     <li>El primer nombre que recibió fué Mocha, posteriormente LiveScript, y tras unos meses, recibió el nombre de JavaScript.</li>
-                    <li>JavaScript es una marca registrada por Oracle.</li>
+                    <li>JavaScript es una marca registrada por <a href="https://es.wikipedia.org/wiki/Oracle_Corporation">Oracle</a>.</li>
                     <li>Ante la popularidad de JavaScript, Microsoft, decidió sacar su propia versión llamada JScript, su última versión estable es del 2011.</li>
-                </ul>
+                </ol>
             </div>
 
             <div class="medio">
                 <div class="aprt4">
-                    <h1>¿Qué es TypeScript?</h1>
-                    <p>TypeScript es un lenguaje de programación construido a un nivel superior que JS. Esto quiere decir que Typescript dota al lenguaje de varias características adicionales que hacen que podamos escribir código con menos errores, más sencillo, etc. en definitiva,más limpio y sólido.</p>
-                    <p>Fue creado por microsoft en 2012, y Google lo adoptó como su lenguaje por defecto para desarrollar con Angular.</p>
-                    <p>Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JS es válido para TS, pero NO lo contrario.</p>
-                    <img class="imgCodigo" src="images/type_codigo.png" alt="Imagen de la sintaxis de Java"/>
+                    <div class="texto4">
+                        <h1>¿Qué es TypeScript?</h1>
+                        <p>TypeScript es un lenguaje de programación construido a un nivel superior que <abbr title="JavaScript">JS</abbr>. <br> Esto quiere decir que Typescript dota al lenguaje de varias características adicionales que hacen que podamos escribir código en definitiva, más limpio y sólido. 
+                        <br>Fue creado por microsoft en 2012, y Google lo adoptó como su lenguaje por defecto para desarrollar con <a href="https://angular.io/">Angular</a>.
+                        <br>Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JS es válido para <abbr title="TypeScript">TS</abbr>, pero NO lo contrario.</p>
+                    </div>
+                    <div class="foto4">
+                        <a href="https://openwebinars.net/cursos/typescript/"><img class="imgCodigo" src="images/type_codigo.png" alt="Imagen de la sintaxis de TypeScript"/></a>
+                    </div>
                 </div>
         
                 <div class="aprt5">
                     <h1>Curiosidades de TypeScript</h1>
-                    <ul>
+                    <ol class="flecha">
                         <li>Es apoyado por fabricantes, tanto Microsoft como Google apoyan de una forma fuerte este lenguaje.</li>
                         <li>Es un lenguaje compilado por lo que podemos detectar muchos errores antes de abordar la ejecución.</li>
-                        <li>Se trata de un lenguaje moderno que permite la unión de types que permite que un tipo soporte 2 opciones. (string | number).</li>
-                    </ul>
+                        <li>Se trata de un lenguaje moderno que permite la <a href="https://www.arquitecturajava.com/typescript-union-type-y-como-usarlos/">unión de types</a> que permite que un tipo soporte 2 opciones. (string | number).</li>
+                    </ol>
                 </div>
             </div>
             <div class="inferior">
                 <div class="aprt6">
                     <h1>Diferencias entre JavaScript y TypeScript</h1>
-                    <table>
+                    <table id="tabla">
                         <tr>
-                            <th><h3>Características</h3></th>
-                            <th><h3>JavaScript</h3></th>
-                            <th><h3>TypeScript</h3></th>
+                            <th>Características</th>
+                            <th>JavaScript</th>
+                            <th>TypeScript</th>
                         </tr>
                         <tr>
                             <td>Tipados</td>
@@ -109,17 +113,20 @@
         
                 <div class="aprt7">
                     <h1>¿JavaScript o TypeScript?</h1>
-                    <p>En proyectos pequeños, usar TypeScript es un poco brusco, por lo que quizá no merezca la pena.</p>
-                    <p>En proyectos medianos o grandes, y sobre todo en un equipo de desarrollo, escribir código en TS ofrece grandes ventajas que se van a notar a corto y a largo plazo.</p>
-                    <p>Si trabajas con frameworks, usar TypeScript es casi una obligación. A esto hay que sumarle que en todas las empresas de desarrollo software los principales proyectos utilizan alguno de estos frameworks o librerías.</p>
-                    <p>Aunque los más recomendable en caso de duda es aprender TS, ya que a nivel profesional es un lenguaje más útil. Además de llevarte el aprendizaje de JS y una base muy sólida para el uso de Angular.</p>
+                    <ol class="flecha">
+                        <li>En proyectos pequeños, usar TypeScript es un poco brusco, por lo que quizá no merezca la pena.</li>
+                        <li>En proyectos medianos o grandes, escribir código en TS ofrece grandes ventajas que se van a notar a corto y a largo plazo.</li>
+                        <li>Si trabajas con <a href="../frameworks/frameworks.html">frameworks</a>, usar TypeScript es casi una obligación.</li>
+                        <li>A esto hay que sumarle que en todas las empresas de desarrollo software los principales proyectos utilizan alguno de estos frameworks o librerías.</li>
+                        <li>Lo más recomendable en caso de duda es aprender TypeScript, ya que a nivel profesional es un lenguaje más útil.</li>
+                    </ol>
                 </div>
             </div>
         </div>
+        <h6><a href="#CABECERA">Ir al inicio de la página</a></h6>
     </div>
 
     <iframe class="footer" src="../footer/index.html"></iframe>
-
 
 </body>
 

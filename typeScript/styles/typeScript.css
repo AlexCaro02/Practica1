@@ -1,3 +1,5 @@
+/*css de el color de fondo y los márgenes de la web*/
+
 body{
     background-color: #186fcc;
 }
@@ -6,6 +8,8 @@ body{
     margin-left: 15px;
     margin-right: 15px;
 }
+
+/*css para el título*/
 
 .encabezado{
     text-align: center;
@@ -18,6 +22,8 @@ body{
     margin-left: 30%;
 }
 
+/*css para los textos h1 de el div general*/
+
 .general h1{
     text-align: center;
     border-style: solid; 
@@ -29,6 +35,8 @@ body{
     padding-top:5px;
 }
 
+/*css para los diferentes div que conforman el contenido de la web*/
+
 .aprt1{
     margin-right: 100px;
     text-align: justify;
@@ -38,48 +46,88 @@ body{
     text-align: justify;
 }
 
-.superior{
+.aprt4{
     display: flex;
-}
-
-.imgJuego{
-    width: 200px;
-    height: 200px;
-    border-color:#000000; 
-    border-radius: 100px; 
-    border-width: 10px;
-    margin-left: 275px;
-}
-
-.imgCreador{
-    width: 200px;
-    height: 200px;
-    border-color:#000000; 
-    border-radius: 100px; 
-    border-width: 10px;
-    margin-top: 20px;
-    margin-left: 275px;
-}
-
-.imgCodigo{
-    width: 50%;
-    height: 50%;
 }
 
 .aprt5{
     justify-self: center;
 }
 
-table {
-    background-color:#FFFFFF;
-    border-collapse: collapse;
-    margin-left: 300px;
+.superior{
+    display: flex;
+}
+
+/*css relacionado con las imágenes de la web*/
+
+.imgJuego{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 10px;
+}
+
+.imgJuego:hover{
+    border-style:solid;
+    border-color: #186fcc;
+    transform: translate(30px, 0px);
+    transition: transform 1.0s ease-in;
+}
+
+.imgCreador{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 10px;
+}
+
+.imgCreador:hover{
+    border-style:solid;
+    border-color: #186fcc;
+    transform: translate(30px, 0px);
+    transition: transform 1.0s ease-in;
+}
+
+.imgCodigo{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 350px;
+    height: 150px;
+    border-color:#000000; 
+    border-radius: 100px; 
+    border-width: 10px;
+}
+
+.imgCodigo:hover{
+    border-style:solid;
+    border-color: #186fcc;
+    transform: translate(30px, 0px);
+    transition: transform 1.0s ease-in;
+}
+
+/*Estilos relacionados con la tabla*/
+
+#tabla {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 th{
     border-style:solid;
     background-color:#5d95e9;
     color:#000000;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align:center;
 }
 
 th:hover {
@@ -94,6 +142,7 @@ td{
     background-color:#b8dbf1;
     font-size: 18px; 
     color:#000000;
+    text-align:center;
 }
 
 td:hover{
@@ -103,11 +152,21 @@ td:hover{
     transition: background-color 0.5s ease-in, transform 0.2s ease-in;
 }
 
-h3{
-    font-weight:bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 19px;
-    text-align:center;
+/*css relacionado con las imágenes de las listas*/
+
+.flecha li{padding: .2em 0 .2em 2.0em; display: block; background: #186fcc url("../images/flecha_activa.png") no-repeat 3px;}
+.flecha li:hover{background: #186fcc url("../images/flecha_inactiva.png") no-repeat 3px;}
+
+/*css relacionado con los enlaces de la web*/
+
+a:link{
+    color:#b8dbf1;
 }
 
+a:visited{
+    color:black;
+}
 
+a:hover{
+    color:white;
+}
