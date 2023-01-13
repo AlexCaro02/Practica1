@@ -1,6 +1,13 @@
 .cuerpo {
     background-color: lightgreen;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .navbar {
@@ -12,7 +19,7 @@
 .contenido {
     margin: 0;
     height: calc(100vh - 121px);
-    width: calc(100vh + 654px);
+    width: calc(100vh + 724px);
     padding-left: 15px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -28,7 +35,15 @@ li {
     margin: 0;
 }
 
-h1{
+p{
+    margin-top: 0px;
+    margin-bottom: 6px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+h1, h4{
     margin: 5px;
 }
 
@@ -43,5 +58,13 @@ h1{
 
 .navbar ul li:last-child {
     border-bottom: 0;
+}
 
+.textimage img{
+    padding-right: 50px;
+    padding-left: 20px;
+    height: 20vh;
+}
+img{
+    float: right;
 }
