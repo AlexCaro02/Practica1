@@ -1,0 +1,19 @@
+.comparacion{
+    background-color: lightyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.comparacion td{
+    border: 2px solid black;
+    vertical-align: top;
+}
+.tiene{
+    
+    text-align: left;
+    list-style-image: url(../img/check-mark-icon.svg);
+}
+.notiene{
+    text-align: left;
+    list-style-image: url(../img/x-10332.svg);
+}
