@@ -1,48 +1,82 @@
-.comparacion{
+.comparacion {
     background-color: lightyellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-.comparacion tr:first-child{
+
+.comparacion tr:first-child {
     font-size: xx-large;
 }
-body{
-    background-color: white;
+
+body {
+    background-color: lightblue;
 }
-.imagenes{
+
+.contenido {
+    background-color: lightblue;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.cabeza{
+    display: flex;
+    justify-content: center; 
+}
+.cabeza h1 {
+    text-align: center;
+    background-color: lightsteelblue;
+    border-radius: 50px;
+    padding: 10px 20px;       
+}
+
+.imagenes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
-.imagenes img{
+
+} 
+
+
+.imagenes img {
     height: 100px;
     transition: 0.3s ease-out;
 }
 
 
-.imagenes img:hover{
-    height:110px ;
+.imagenes img:hover {
+    height: 110px;
     transition: 0.5s ease-in;
 }
 
-.comparacion td{
+.comparacion td {
     border: 2px solid black;
     vertical-align: top;
 }
-.comparacion img{
-    width:40px;
+
+.comparacion img {
+    width: 40px;
 }
-.tiene{
+
+.tiene {
     text-align: left;
     list-style-image: url(../img/check-mark-icon.svg);
     color: darkgreen;
+    transition: 0.2s ease-out;
 }
-.notiene{
+.tiene li:hover{
+    color: green;
+    transition: 0.5s ease-in;
+}
+.notiene {
     text-align: left;
     list-style-image: url(../img/x-10332.svg);
     color: darkred;
-}
+    transition: 0.2s ease-out;
 
+}
+.notiene li:hover{
+    color: red;
+    transition: 0.5s ease-in;
+}
