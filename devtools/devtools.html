@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML5 & CSS3 | Chrome DevTools</title>
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <link rel="shortcut icon" href="images/icon.jpg">
+    </head>
+    <body>
+    
+        <iframe src="../header/index.html" ></iframe>
+        <header>
+            <h1>Chrome DevTools</h1>
+        </header>
+
+       <!-- <nav>
+            <iframe src="../header/index.html" ></iframe>
+        </nav> -->
+
+        <section>
+            <div>
+                <h2>¿Qué es Chrome DevTools?</h2>
+                &nbsp;
+                Chrome DevTools es un conjunto de herramientas para desarrolladores integradas 
+                en el navegador Google Chrome. Esta herramienta apoya a los desarrolladores 
+                para diagnosticar, depurar y desarrollar aplicaciones web. Gracias a estas 
+                herramientas podemos perfectamente simular la conectividad de internet, 
+                inspeccionar elementos, ejecutar Javascript y muchas otras características
+                <h2>¿Cómo se accede?</h2>
+                Para acceder a estas herramientas, hay 3 formas principales, que son:
+                <ol>
+                    <li>Hacer clic con el botón derecho en cualquier elemento de una página 
+                        web y, a continuación, seleccionar la opción inspeccionar.</li>
+                    <li>Presionar Ctrl+Shift+I (Windows, Linux) o Command+Option+I (macOS).</li>
+                    <li>Presionar F12.</li>
+
+                </ol>
+                <h2>Paneles de Chrome DevTools</h2>
+                Las Chrome DevTools están compuestas por múltiples secciones/funcionalidades, 
+                entre las cuales se encuentran las siguientes:
+
+                <ul>
+                    <li>Elements.</li>
+                    <li>Console.</li>
+                    <li>Sources.</li>
+                    <li>Network.</li>
+                    <li>Performance.</li>
+                    <li>Memory.</li>
+                    <li>Application.</li>
+                </ul>
+                &nbsp;
+                <h3>Elements</h3>
+                La pestaña elements está enfocada principalmente en el DOM e interacción con las partes 
+                que lo componen (HTML y CSS). Entre sus principales funcionalidades se encuentran 
+                las siguientes:
+
+                <ul>
+                    <li>
+                        Ver y cambiar las propiedades de los objetos DOM: Visualización de nodos,
+                        navegar por el árbol DOM, filtrado de nodos, editar contenido, editar atributos, 
+                        reordenar nodos y esconder nodos.
+                    </li>
+                    <li>
+                        Ver y cambiar CSS de los objetos DOM: Visualización de estilos computados, 
+                        herencia CSS, modelo de caja, filtrado de css, propiedades y pseudo-clases.
+                    </li>
+                    <li>
+                        Inspeccionar y depurar diseños CSS Grid y Flexbox: Modificación de diseños grid 
+                        y flexbox con paneles interactivos.
+                    </li>
+                </ul>
+
+                <img src="images/Elements.png" height ="65%" width="65%"/>
+                &nbsp;
+                <h3>Console</h3>
+                La pestaña console está enfocada principalmente en Javascript. La consola es básicamente 
+                un REPL que permite evaluar declaraciones en Javascript y ver sus resultados inmediatamente. 
+                Entre sus principales funcionalidades se encuentran las siguientes:
+
+                <ul>
+                    <li>
+                        Ejecutar Javascript: Programación, evaluación de expresiones e interacción con las APIs del navegador.
+                        <img src="images/Console1.png" height ="65%" width="65%"/>
+                    </li>
+                    <li>
+                        Visualización de logs: Registrar y filtrar logs en diferentes niveles; Info, warnings y errors.
+                        <img src="images/Console2.png" height ="65%" width="65%"/>
+                    </li>
+                </ul>
+
+                <h3>Sources</h3>
+                La pestaña source está enfocada principalmente en archivos y recursos que ha cargado la página, además 
+                cuenta con herramientas enfocadas a la programación y depuración de código. Entre sus principales 
+                funcionalidades se encuentran las siguientes:
+                <ul>
+                    <li>
+                        Visualización y modificación de archivos: Visualización de imágenes, HTML, CSS, 
+                        scripts y fuentes cargadas en la página.
+                    </li>
+                    <li>
+                        Creación y ejecución de snippets: Inserción de código empaquetado. Los snippets son scripts 
+                        que pueden ejecutar en cualquier página, pueden ser guardados y reutilizarlos. DevTools guarda 
+                        el Snippet en el sistema de archivos.
+                    </li>
+                    <li>
+                        Depurador de Javascript: Depurador de Javascript incorporado para establecer puntos de 
+                        interrupciones, guardar paradas intencionales y recorrer la ejecución del código línea por línea.
+                        <img src="images/Sources.png" height ="65%" width="65%"/>
+                    </li>
+                </ul>
+
+                <h3>Network</h3>
+                La pestaña network está enfocada principalmente la inspección de la actividad de red de la página. 
+                Entre sus principales funcionalidades se encuentran las siguientes:
+                <ul>
+                    <li>
+                        Registro de la actividad web: Inspección de actividad de peticiones, información de status 
+                        HTTP, dominios, filtrado de recursos, tiempo de solicitud, representación gráfica en cascada, 
+                        entre otras. Cabe destacar que, de forma predeterminada, los recursos se enumeran cronológicamente.
+                        <p></p>
+                        <img src="images/Network1.png" height ="65%" width="65%"/>
+                    </li>
+                    <li>
+                        Capturas de pantalla: Las capturas de pantalla permiten ver cómo se veía una página a lo largo del 
+                        tiempo mientras se cargaba.
+                        <img src="images/Network2.png" height ="65%" width="65%"/>
+                    </li>
+                    <li>
+                        Simulación de condición de la red: Simulaciones de conexiones 3g, modo offline y custom.
+                        <img src="images/Network3.png" height ="65%" width="65%"/>
+                    </li>
+                </ul>
+                <h3>Performance</h3>
+                La pestaña performance está enfocada principalmente la inspección y medición del rendimiento de la 
+                web bajo el modelo RAIL (Response, Animation, Idle y Load). Entre sus principales funcionalidades 
+                se encuentran las siguientes:
+                <ul>
+                    <li>
+                        Análisis de rendimiento RAIL: Registros de capturas, milisegundos, Referencia de eventos de 
+                        línea de tiempo, gráficos entre otros ajustes para el análisis y casuísticas.
+                    </li>
+                    <img src="images/Performance.png" height ="65%" width="65%"/>
+                </ul>
+
+                <h3>Memory</h3>
+                La pestaña memory está enfocada principalmente para diagnosticar y solucionar problemas de memoria, 
+                como fugas, hinchazones, recolección de elementos no utilizados. Entre sus principales funcionalidades 
+                se encuentran las siguientes:
+
+                <ul>
+                    <li>
+                        Capturas de pantalla: Almacenamiento con perfiles de almacenamiento dinámico para encontrar 
+                        pérdidas de memoria. Comparación de capturas, explorar contenido de memoria y árboles 
+                        dominadores para encontrar puntos de acumulación.
+                    </li>
+                    <img src="images/Memory.png" height ="65%" width="65%"/>
+                </ul>
+
+                <h3>Application</h3>
+                La pestaña application está enfocada principalmente al almacenamiento y gestión de información dentro 
+                del navegador como por ejemplo cookies, local storage o caché. Además, esta pestaña brinda múltiples 
+                herramientas para trabajar con servicios en segundo plano. Entre sus principales funcionalidades se 
+                encuentran las siguientes:
+
+                <ul>
+                    <li>
+                        Aplicaciones: Herramientas para la creación de Progressive web apps, gestión del manifiesto y Services workers.
+                        <img src="images/App1.png" height ="65%" width="65%"/>
+                    </li>
+                    <li>
+                        Storages: Sistemas de almacenamiento en el navegador. Gestión e interacción con Localstorage, Session Storage, 
+                        Indexsed DB y Cookies.
+                        <p></p>
+                        <img src="images/App2.png" height ="65%" width="65%"/>
+                    </li>
+                    <li>
+                        Cache: Inspección y gestión de datos de caché del navegador.
+                        <img src="images/App3.png" height ="65%" width="65%"/>
+                    </li>
+                </ul>
+            </div>
+            <p><!--espacio entre partes del artículo--></p>
+        </section>
+
+        <aside>
+            <div>
+                Conocer todas las herramientas que nos ofrece las Chrome DevTools es de gran utilidad a la hora de desarrollar para la web.
+            </div>
+        </aside>
+
+        <footer>
+            <iframe class="footer" src="../footer/index.html"></iframe>
+        </footer>
+
+    </body>
+</html>
