@@ -4,6 +4,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .comparacion tr:first-child {
@@ -28,7 +29,8 @@ body {
     text-align: center;
     background-color: lightsteelblue;
     border-radius: 50px;
-    padding: 10px 20px;       
+    padding: 10px 20px;    
+   
 }
 
 .imagenes {
@@ -54,22 +56,25 @@ body {
     border: 2px solid black;
     vertical-align: top;
 }
-
+li{
+    color: black;
+}
 .comparacion img {
     width: 40px;
 }
 
-.tiene {
+.tiene li {
     text-align: left;
     list-style-image: url(../img/check-mark-icon.svg);
     color: darkgreen;
     transition: 0.2s ease-out;
+
 }
 .tiene li:hover{
     color: green;
     transition: 0.5s ease-in;
 }
-.notiene {
+.notiene li{
     text-align: left;
     list-style-image: url(../img/x-10332.svg);
     color: darkred;
