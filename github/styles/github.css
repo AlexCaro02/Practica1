@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.cuerpo {
+    align-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.folder li{padding: .2em 0 .2em 2.0em; display: block; background: rgb(25, 25, 25) url("../imgs/folder.png") no-repeat 3px;}
+.seccion {
+    display: flex;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#logo {
+    align-self: center;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    padding-right: 50px;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+.imagen {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
